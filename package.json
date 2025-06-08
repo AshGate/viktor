@@ -1,0 +1,16 @@
+{
+  "name": "discord-ticket-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord avec système de tickets",
+  "main": "bot.js",
+  "private": true,
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  }
+}
